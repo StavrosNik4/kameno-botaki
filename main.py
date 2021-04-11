@@ -44,30 +44,13 @@ async def on_message(message):
   if message.content.startswith('#d20'):
     ran = random.randint(1,20)
     await message.channel.send(ran)
-  
-  if message.content.startswith('#mpineliki'):
-    ran = random.randint(0,12)
-    await message.channel.send(insults[ran])
-
-  if message.content.startswith('KEKW'):
-    await message.channel.send('https://www.dexerto.com/wp-content/uploads/2021/01/kekw-emote-twitch.jpg')
-
-  if message.content.startswith('BRUH'):
-    await message.channel.send('!p https://www.youtube.com/watch?v=2ZIpFytCSVc')
 
   if message.content.startswith('#img'):
     num = random.randint(0, 999)
     await message.channel.send('https://picsum.photos/400/600?random='+str(num))
 
-  if message.content.startswith('#pp'):
-    num = random.randint(1, 10)
-    await message.channel.send('8'+ num * '=' + 'D')
-
   if message.content.startswith('#qr'):
     await message.channel.send('https://drive.google.com/file/d/12tETNN6uePXtfwxcrQVw-jmwIuCJ8RWb/view?usp=sharing')
-
-  if message.content.startswith('#ellina'):
-    await message.channel.send('https://i.redd.it/uv4gmfi16wf61.png')
 
   if message.content.startswith('#coinflip'):
     num = random.randint(1, 2)

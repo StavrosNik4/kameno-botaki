@@ -1,5 +1,5 @@
 # kameno-botaki
-A bot that I made for fun with my friends on Discord
+A Discord bot that I made for fun with my friends on Discord
 
 Currently the bot has the following features available:
 

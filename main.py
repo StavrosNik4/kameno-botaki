@@ -1,8 +1,9 @@
+import discord
+import os
+import requests
 import json
 import random
-
-import discord
-import requests
+from discord.ext import commands
 
 client = discord.Client()
 
@@ -87,4 +88,4 @@ async def on_message(message):
             await message.channel.send('**You Lose!**')
 
 
-client.run("OTAwNDE3MTE4NTQ4Mzk0MDI2.YXBAyg.Qzrwe4jOmf_H9rwhu_mzIR_1_3U")
+client.run("")

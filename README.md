@@ -13,23 +13,28 @@ Currently the bot has the following features available:
   
   • A random image command that sends you a random quote from https://picsum.photos/
   
+  • Rock Papers Scissors game
+
   • And a really secret QR code command (scan it to learn the truth about this bot!)
 
 Command List:
   
-  #hello
+  • #hello
   
-  #inspire
-  #d4
+  • #inspire
+  • #d4
   
-  #d6
+  • #d6
   
-  #d8
+  • #d8
   
-  #d20
+  • #d20
   
-  #img
+  • #img
   
-  #coinflip
+  • #coinflip
+
+  • #rps value
+  where value is: rock or paper or scissors
   
-  #qr
+  • #qr
